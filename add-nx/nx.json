@@ -1,0 +1,28 @@
+{
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    }
+  },
+  "installation": {
+    "version": "17.3.0-rc.1",
+    "plugins": {
+      "@nx-dotnet/core": "latest"
+    }
+  },
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
+}
